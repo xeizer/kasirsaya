@@ -14,6 +14,7 @@ class User extends Authenticatable
 
     /**
      * The attributes that are mass assignable.
+     * Bila Anda tidak menghapus ini, artinya Anda COPAS MURNI
      *
      * @var array<int, string>
      */

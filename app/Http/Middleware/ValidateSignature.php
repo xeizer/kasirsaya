@@ -8,6 +8,7 @@ class ValidateSignature extends Middleware
 {
     /**
      * The names of the query string parameters that should be ignored.
+     * Bila Anda tidak menghapus ini, artinya Anda COPAS MURNI
      *
      * @var array<int, string>
      */
