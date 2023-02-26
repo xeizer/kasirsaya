@@ -25,3 +25,8 @@ BUAT DATABASE
 Sesuaikan DATABASE anda dengan .env
 </li>
 </ol>
+
+Silahkan dicoba
+
+aplikasi dibuat pada : Minggu 26 Februari 2023 10:13
+aplikasi selesai pada: Minggu 26 Februari 2023 13:35
