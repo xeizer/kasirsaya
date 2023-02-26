@@ -23,7 +23,9 @@
                             Stok : {{ $barang->stok }}<br />
                             Jumlah : <input type="number" min="1" value="1" wire:model='jumlah' />
                             <button class="btn btn-primary" wire:click='tambahkan'
-                                @if ($jumlah > $barang->stok) disabled @endif>TAMBAH</button>
+                                @if ($jumlah > $barang->stok || $jumlah == 0 || $jumlah == null) disabled @endif>TAMBAH</button>
+                        @else
+                            {{ $catatan ?? '' }}
                         @endif
                         <table class="table table-bordered table-striped table-hover">
                             <thead>

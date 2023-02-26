@@ -20,6 +20,9 @@ class Transaksi extends Component
         $caribarang = Barang::where('barcode', $this->barcode)->first();
         if ($caribarang) {
             $this->barang = $caribarang;
+        } else {
+            $this->reset('barang');
+            $this->catatan = 'Tidak Ditemukan';
         }
     }
     public function tambahkan()
