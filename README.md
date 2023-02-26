@@ -28,5 +28,10 @@ Sesuaikan DATABASE anda dengan .env
 
 Silahkan dicoba
 
-aplikasi dibuat pada : Minggu 26 Februari 2023 10:13
+aplikasi dibuat pada : Minggu 26 Februari 2023 10:13<br />
 aplikasi selesai pada: Minggu 26 Februari 2023 13:35
+
+<p>Silahkan Kontak pak maja di </p>
+WA : 081257977949<br />
+Telegram : @xeizer<br />
+
