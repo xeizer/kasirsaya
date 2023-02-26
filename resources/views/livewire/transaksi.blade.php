@@ -41,7 +41,7 @@
                                 @foreach ($datas as $item)
                                     <tr>
                                         <td>{{ $item->barang->name }}</td>
-                                        <td>{{ $item->barang->harga }}N</td>
+                                        <td>{{ $item->barang->harga }}</td>
                                         <td>{{ $item->jumlah }}</td>
                                         <td>{{ $item->total }}</td>
                                         <td><button class="btn btn-sm btn-danger"

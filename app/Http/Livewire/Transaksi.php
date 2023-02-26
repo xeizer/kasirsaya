@@ -52,7 +52,7 @@ class Transaksi extends Component
         $kembalikanstok->stok = $kembalikanstok->stok + $hapus->jumlah;
         $kembalikanstok->save();
         $hapus->delete();
-        $this->reset(['barcode', 'barang']);
+        $this->reset(['barcode', 'barang', 'catatan']);
     }
     public function render()
     {
