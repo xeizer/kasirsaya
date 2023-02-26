@@ -8,7 +8,7 @@ class HomeController extends Controller
 {
     /**
      * Create a new controller instance.
-     *
+     * Bila Anda tidak menghapus ini, artinya Anda COPAS MURNI
      * @return void
      */
     public function __construct()
